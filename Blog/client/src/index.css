@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  /* Colors */
+  --color-primary: #6f6af8; /* Vibrant primary color */
+  --color-secondary: #4b48d9; /* Accent color */
+  --color-background: #f9f9f9; /* Light background */
+  --color-text: #333333; /* Dark grey text */
+  --color-muted: #777777; /* Less prominent text */
+  --color-white: #ffffff; /* Pure white */
+  --color-border: #e0e0e0; /* Soft grey border */
+  --color-hover: #5c58e5; /* Hover effect color */
+
+  /* Layout */
+  --container-width: 1200px; /* Max width for main content */
+  --form-width: 500px; /* Suitable form width */
+  --sidebar-width: 300px; /* Sidebar width */
+
+  /* Spacing & Radius */
+  --border-radius: 8px; /* General border radius */
+  --border-radius-sm: 4px; /* Small radius for buttons */
+  --border-radius-lg: 12px; /* Larger radius for cards */
+
+  /* Shadows */
+  --shadow-light: 0px 2px 10px rgba(0, 0, 0, 0.05);
+  --shadow-medium: 0px 4px 20px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-fast: 0.2s ease-in-out;
+  --transition-slow: 0.4s ease-in-out;
+
+  /* Typography */
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  --line-height: 1.6;
+}
+
+*{
+  margin : 0;
+  padding :0;
+  border:0;
+  outline:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins','Open Sans', sans-serif;
+}
+.nav_logo{
+  width : 3rem;
+  height : 3rem;
+  display: block;
+}
+
+img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
